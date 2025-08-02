@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Whitewater Rafting Adventures - Contact Page">
+  <meta name="author" content="Mishelle Awuor Odhiambo">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Whitewater Rafting Co.</title>
+  <link rel="stylesheet" href="styles/rafting.css">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400;700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <img src="images/logo.png" alt="Rafting Site Logo">
+    <h1>Whitewater Rafting Co.</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="trips.html">Trips</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h1>Contact Us</h1>
+    <section class="contact-info">
+      <h2>Get your inquiries</h2>
+      <adress>
+        A2,<br>
+        River Sagana,<br>
+        Phone:<a href="tel:+254745395414">(254)745-395414</a><br>
+        Email:<a href="sagana:info@whitewateradventures.com">info@whitewateradventures.com</a>
+      </adress>
+      <div class="map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63832.835798484724!2d37.113658161208924!3d-0.661716550787393!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182899604c5e054f%3A0x8808763236944548!2sRiver%20Sagana!5e0!3m2!1sen!2ske!4v1754042874330!5m2!1sen!2ske"
+          width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </section>
+    <section class="employees profile">
+      <h2>Meet Our Team</h2>
+      <div class="employees grid">
+        <figure>
+          <img src="wwr/images/employee 1.jpg" alt="customer service rep Jules">
+          <figcaption>Jules-Customer Service</figcaption>
+        </figure>
+        <figure>
+          <img src="wwr/images/employee 2.jpg" alt="reservation expert Mia and a customer">
+          <figcaption>Mia-Reservations</figcaption>
+        </figure>
+        <figure>
+          <img src="wwr/images/employee3.jpg" alt="river guide Jakes">
+          <figcaption>Jakes-River Guide</figcaption>
+        </figure>
+      </div>
+    </section>
+    <section class="Information Form">
+      <h2>Send Us a message</h2>
+      <form action="grouping" method="post">
+        <div class="form-group">
+          <label for="username">Name</label>
+          <input type="text" id="username" name="username" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <fieldset>
+          <legend>Purpose of message</legend>
+          <div>
+            <input type="radio" id="inquiry" name="purpose" value="inquiry" required>
+            <label for="inquiry">General Inquiry</label>
+          </div>
+          <div>
+            <input type="radio" id="reservation" name="purpose" value="reservation">
+            <label for="reservation">Reservation Question</label>
+          </div>
+          <div>
+            <input type="radio" id="suggestion" name="purpose" value="suggestion">
+            <label for="suggestion">Website suggestion</label>
+          </div>
+        </fieldset>
+        <div class="form-group">
+          <label for="message">Messages</label>
+          <textarea id="message" name="message" rows="5">required</textarea>
+        </div>
+        <div class="form-group checkbox-group">
+          <input type="checkbox" id="subscribe" name="subscribe">
+          <label for="subscribe">Please subscribe me to the monthly newsletter</label>
+        </div>
+        <button type="submit" class="btn-submit">send message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Whitewater Rafting Co. | Mishelle Awuor Odhiambo</p>
+    <nav class="socialmedia">
+      <a href="https://facebook.com">
+        <img src="images/facebook.png" alt="Facebook Icon">
+      </a>
+      <a href="https://twitter.com">
+        <img src="images/twitter.png" alt="Twitter Icon">
+      </a>
+      <a href="https://instagram.com">
+        <img src="images/instagram.png" alt="Instagram Icon">
+      </a>
+      <img src="wwr/images/wireframe.jpg"alt='wireframe'>
+    </nav>
+  </footer>
+</body>
+
+</html>
